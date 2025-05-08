@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Popular TV Quiz Shows: From Pastime to Large Language Model Benchmarking and Back</title>
+
+		<meta name="description" content="Sinteza 2025 conference - Keynote">
+		<meta name="author" content="Vladimir Milovanović">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/beige.css" id="theme">
+		<!--<link rel="stylesheet" href="dist/theme/white.css" id="theme">-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>TV Quiz Shows</h1>
+					<h3>From Pastime to LLM Benchmarking and Back</h3>
+					<img src="./slike/logo/unikg_logo.png" height="123">
+					<p>
+						<small><u><b>Vladimir Milovanović</b></u></small><br>
+						<small>Center for Integrated Systems<br>
+						       Department of Electrical Engineering and Computer Sciences<br>
+						       Faculty of Engineering, University of Kragujevac</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Chess milestone in the history of AI</h2>
+					<img src="./slike/Garry-Kasparov-Deep-Blue-IBM-computer.jpg" width="730">
+					<p>
+						<small>In 1997 IBM's Deep Blue won a match against reigning world champion Garry Kasparov.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Joepardy! as the TV Quiz AI milestone</h2>
+					<img src="./slike/IBM-Watson.jpg" width="820">
+					<p>
+						<small>In 2011 IBM's Watson beat the two best human <em>Jeopardy!</em> players in a $1 Million match.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>TV Slagalica as Serbian Joepardy!</h2>
+					<img src="./slike/slagalica30yrs.jpg" width="820">
+					<p>
+						<small>The longest-running TV quiz show with nearly ten thousand episodes aired since 1993.</small>
+					</p>
+				</section>
+
+				<section data-auto-animate>
+					<h2>Games in TV Slagalica</h2>
+					<img src="./slike/GamesSlagalica.png" height="505">
+				</section>
+				<section data-auto-animate>
+					<h2>Games in TV Slagalica</h2>
+					<img align="left" src="./slike/GamesSlagalica.png" height="404">
+					<ul style="list-style-type:square; margin-top:1cm;">
+						<li class="fragment"><em>Slagalica - Igra sa slovima</em> (Puzzle - Letter game)</li>
+						<li class="fragment"><em>Moj Broj - Igra sa brojevima</em> (Math game)</li>
+						<li class="fragment"><em>Korak po korak</em> (Word detection game)</li>
+						<li class="fragment"><em>Skočko</em> (Mastermind)</li>
+						<!--<li class="fragment"><em>Slovo po slovo</em> (Hangman)</li>-->
+						<li class="fragment"><em>Spojnice</em> (Connections)</li>
+						<li class="fragment"><em>Ko zna zna</em> (General knowledge game)</li>
+						<li class="fragment"><em>Asocijacije</em> (Associations game)</li>
+					</ul>
+					<p class="fragment" style="text-align:left;">
+						<small>An additional game named <em>Slovo po slovo</em> (Hangman) is only played in the series super final.</small>
+					</p>
+				</section>
+
+				<section data-auto-animate>
+					<h2><em>Slagalica</em> (Puzzle) - The Letter Game</h2>
+					<img src="./slike/1208329_36038-slagalica-ig_ff.jpg" width="820">
+					<p style="text-align:left;">
+						<small>Each contestant is given twelve letters to try and work out the longest word they can make.</small>
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2><em>Slagalica</em> (Puzzle) - The Letter Game</h2>
+					<img src="./slike/1121727_slagalica_ff.jpg" width="820">
+					<p style="text-align:left;">
+						<small>Each contestant is given twelve letters to try and work out the longest word they can make.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2><em>Slagalica</em> - A CS Freshman Homework</h2>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">I teach introductory programming course in Python</li>
+						<li class="fragment">Animate students with interesting homeworks...</li>
+						<li class="fragment">It seemd to be an ideal homework task... and it was!</li>
+						<li class="fragment">Students were given a real dictionary in a textual file</li>
+						<li class="fragment">Dictionary obtained from LibreOffice spell checker</li>
+						<li class="fragment">Not the easiest homework with many side problems:
+							<ul style="list-style-type:circle;">
+								<li class="fragment">calculating letter probabilities in Serbian language</li>
+							</ul>
+						</li>
+						<li class="fragment">Tests: conditionals, loops, functional abstraction, I/O.</li>
+						<li class="fragment">Surprisingly well received by the students & parents!</li>
+						<li class="fragment">Did the same with <em>Slovo po slovo</em> (Hangman) game!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2><em>Moj broj</em> (Math game) - Numbers Game</h2>
+					<img src="./slike/MojBroj740.png" width="820">
+					<p style="text-align:left;">
+						<small>With six numbers and basic operations get a result as close to the given number as possible.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2><em>Countdown</em> - The Numbers Round</h2>
+					<img src="./slike/CountdownNumbersRound.png" width="820">
+					<p style="text-align:left;">
+						<small>Very similar to the widely recognised British game show which airs on Channel 4 since 1982.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2><em>Moj broj</em> - As CS Sophomore Exam</h2>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">I tought Algorithms and Data Structures course</li>
+						<li class="fragment">Wanted to give a bit harder problem for the exam</li>
+						<li class="fragment">Turned out too hard: was solved only by one student</li>
+						<li class="fragment">Since then, proved ideal as a homework task (again).</li>
+						<li class="fragment">Example of exponential complexity algorithm <em>O</em>(2<sup><em>N</em></sup>):
+							<ul style="list-style-type:circle;">
+								<li class="fragment">however, <em>N</em> is small thus its runtime is reasonable</li>
+								<li class="fragment">easy solve in postfix/reverse Polish notation (RPN)</li>
+								<li class="fragment">exhaustive enumeration method with brute-force</li>
+								<li class="fragment">optimizations: heuristics, memoization, pruning,...</li>
+								<li class="fragment">reduces runtime from under 1 minute to 1 second.</li>
+							</ul>
+						</li>
+						<li class="fragment">Surprisingly well received by the students & parents!</li>
+					</ul>
+				</section>
+
+				<section data-auto-animate>
+					<h2>What about the Other Five Games?</h2>
+					<img src="./slike/GamesSlagalica.png" height="505">
+				</section>
+				<section data-auto-animate>
+					<h2>What about the Other Five Games?</h2>
+					<img align="left" src="./slike/GamesSlagalica.png" height="404">
+					<ul style="list-style-type:square; margin-top:1cm;">
+						<li style="color:green;"><em>Slagalica - Igra sa slovima</em> (Puzzle - Letter game)</li>
+						<li style="color:green;"><em>Moj Broj - Igra sa brojevima</em> (Math game)<sup>1</sup></li>
+						<li class="fragment" style="color:blue;"><em>Korak po korak</em> - similar to <em>Joepardy!</em> in some way</li>
+						<li class="fragment" style="color:blue;"><em>Skočko</em> - worst case solution: five guesses<sup>2</sup</li>
+						<!--<li class="fragment"><em>Slovo po slovo</em> (Hangman)</li>-->
+						<li class="fragment" style="color:blue;"><em>Spojnice</em> (Connections)</li>
+						<li class="fragment" style="color:blue;"><em>Ko zna zna</em> - reduces itself to a database query</li>
+						<li class="fragment" style="color:red;"><em>Asocijacije</em> - the ultimate challenge for computer!</li>
+					</ul>
+					<p class="fragment" style="text-align:left;">
+						<small>A decade ago came up with an "original" idea to build a bot that solves the associations game.</small>
+					</p>
+					<p style="text-align:left;">
+						<small><sup>1</sup>Dejan Tomić, "<a href="https://esveske.github.io/pdf/2009/z09-023_RAC09_2K2.pdf">The "My Number" Game with Computation of the Exact or Nearest Solution</a>"<br>
+						<sup>2</sup>Donald Knuth, "<a href="http://www.cs.uni.edu/~wallingf/teaching/cs3530/resources/knuth-mastermind.pdf">The Computer as Master Mind</a>", J. Recr. Math. Vol. 9(1), 1976–77, pp. 1–6.</small>
+					</p>
+				</section>
+
+				<section data-auto-animate>
+					<h2><em>Asocijacije</em> - The Associations game</h2>
+					<img src="./slike/SlagalicaAsocijacije0.png" width="820">
+					<p style="text-align:left;">
+						<small>Given four words, guess the fifth hidden word that is in some sense sematically related to all.</small>
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2><em>Asocijacije</em> - The Associations game</h2>
+					<img src="./slike/SlagalicaAsocijacije1.png" width="820">
+					<p style="text-align:left;">
+						<small>Given four words, guess the fifth hidden word that is in some sense sematically related to all.</small>
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2><em>Asocijacije</em> - The Associations game</h2>
+					<img src="./slike/SlagalicaAsocijacije2.png" width="820">
+					<p style="text-align:left;">
+						<small>Given four words, guess the fifth hidden word that is in some sense sematically related to all.</small>
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2><em>Asocijacije</em> - The Associations game</h2>
+					<img src="./slike/SlagalicaAsocijacije3.png" width="820">
+					<p style="text-align:left;">
+						<small>Given four words, guess the fifth hidden word that is in some sense sematically related to all.</small>
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2><em>Asocijacije</em> - The Associations game</h2>
+					<img src="./slike/SlagalicaAsocijacije4.png" width="820">
+					<p style="text-align:left;">
+						<small>Given four words, guess the fifth hidden word that is in some sense sematically related to all.</small>
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2><em>Asocijacije</em> - The Associations game</h2>
+					<img src="./slike/SlagalicaAsocijacije5.png" width="820">
+					<p style="text-align:left;">
+						<small>Given four words, guess the fifth hidden word that is in some sense sematically related to all.</small>
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2><em>Asocijacije</em> - The Associations game</h2>
+
+					<img src="./slike/SlagalicaAsocijacijeSolved.png" width="820">
+					<p style="text-align:left;">
+						<small>Given four words, guess the fifth hidden word that is in some sense sematically related to all.</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Associations - How to approach it?</h2>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Apply natural language processing (NLP) techniques.</li>
+						<li class="fragment">In particular exploit <em>word2vec</em><sup>3</sup> for word embeddings.</li>
+					</ul>
+					<img class="fragment" src="./slike/Word_embedding_illustration.svg" height="370">
+					<img class="fragment" src="./slike/Word_vector_illustration.jpg" height="370">
+					<small class="fragment" style="text-align:left;"><sup>3</sup>Tomáš Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeff Dean, "<a href="https://dl.acm.org/doi/10.5555/2999792.2999959">Distributed representations of words and phrases and their compositionality</a>", NIPS'13, pp. 3111-3119</small>
+				</section>
+
+				<section>
+					<h2>Word embedding and Word2vec</h2>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">The word embedding approach can capture multiple different degrees of similarity between words.</li>
+						<li class="fragment">Both semantic and syntactic patterns can be easily reproduced<!--<sup>4</sup>--> using plain simple vector arithmetic.</li>
+						<li class="fragment">For example: <em>Man is to Woman as Brother is to Sister</em>.</li>
+					</ul>
+					<img class="fragment" src="./slike/GenderAndSingularPluralRelations.png" width="730">
+					<small class="fragment" style="text-align:left;"><sup>4</sup>Tomáš Mikolov, Wen-tau Yih, Geoffrey Zweig, "<a href="https://aclanthology.org/N13-1090/">Linguistic Regularities in Continuous Space Word Representations</a>", NAACL HLT 2013, pp. 746-751</small>
+				</section>
+
+				<section>
+					<h2>Word2vec applied to the Associations</h2>
+					<img src="https://www.tandfonline.com/cms/asset/3185b003-0d13-4b1e-b21d-4c0a9e7e81c7/uaai_a_2034262_f0005_b.jpg" width="703">
+					<small class="fragment" style="text-align:left;"><sup>5</sup>Nebojša Grujić, Vladimir Milovanović, "<a href="https://www.tandfonline.com/doi/full/10.1080/08839514.2022.2034262">Associative Word Relations in Natural Language Processing</a>", <em>Applied Artificial Intelligence</em>, vol. 36, no. 1, article: 2034262, February 2022</small>
+				</section>
+
+				<section>
+					<h2>How to obtain The Word Embeddings?</h2>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Training corpus was Serbian only and it included<sup>6</sup>:
+							<ol type="A">
+								<li class="fragment">Serbian Wikipedia and Matica srpska dictionaries</li>
+								<li class="fragment">OCR-ed Serbian literature from National Library</li>
+								<li class="fragment">Crawling snapshot of the .rs top-level domain</li>
+							</ol>
+						</li>
+						<li class="fragment">After the recurrent neural network (RNN) language model is trained, the learned word embeddings are positioned in the vector space such that words that share common contexts in the corpus — that is, words that are semantically and syntactically similar — are located close to one another in the space.</li>
+					</ul>
+					<small class="fragment" style="text-align:left;"><sup>6</sup>Nebojša Grujić, Vladimir Milovanović, "<a href="https://ieeexplore.ieee.org/document/8861547">Natural Language Processing for Associative Word Predictions</a>", <em>IEEE EUROCON 2019 - International Conference on Smart Technologies</em>, Novi Sad, Serbia, July 2019</small>
+				</section>
+
+				<section data-auto-animate>
+					<h2>How to evaluate the proposed model?</h2>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Model was evaluated on actual Associations games.
+							<ul style="list-style-type:circle;">
+								<li class="fragment">Crawling official <a href="https://www.youtube.com/@SlagalicaRTS">@SlagalicaRTS</a> YouTube channel</li>
+								<li class="fragment">>3.8k videos downloaded with <a href="https://github.com/pytube/pytube"><code>pytube</code></a> or <a href="https://ytdlp.toolbrew.org/"><code>yt-dlp</code></a></li>
+								<li class="fragment">30k+ individual 4-word association sets extracted</li>
+							</ul>
+						</li>
+					</ul>
+					<img class="fragment" src="./slike/asoc2.png" height="275">
+					<!--<small class="fragment" style="text-align:left;"><sup>7</sup>Aleksandar Kondić, Automatic text recognition and extraction from "TV Slagalica" videos, <em>Faculty of Engineering in Kragujevac</em>, diplomski rad, 2019, mentorship: Vladimir Milovanović</small>-->
+				</section>
+				<section data-auto-animate>
+					<h2>How to evaluate the proposed model?</h2>
+					<ul style="list-style-type:disc;">
+						<li>Model was evaluated on actual Associations games.
+							<ul style="list-style-type:circle;">
+								<li>Crawling official <a href="https://www.youtube.com/@SlagalicaRTS">@SlagalicaRTS</a> YouTube channel</li>
+								<li>>3.8k videos downloaded with <a href="https://github.com/pytube/pytube"><code>pytube</code></a> or <a href="https://ytdlp.toolbrew.org/"><code>yt-dlp</code></a></li>
+								<li>30k+ individual 4-word association sets extracted</li>
+							</ul>
+						</li>
+					</ul>
+					<img src="./slike/solved2.png" height="275">
+					<!--<small class="fragment" style="text-align:left;"><sup>7</sup>Aleksandar Kondić, Automatic text recognition and extraction from "TV Slagalica" videos, <em>Faculty of Engineering in Kragujevac</em>, diplomski rad, 2019, mentorship: Vladimir Milovanović</small>-->
+				</section>
+				<section data-auto-animate>
+					<h2>How to evaluate the proposed model?</h2>
+					<ul style="list-style-type:disc;">
+						<li>Model was evaluated on actual Associations games.
+							<ul style="list-style-type:circle;">
+								<li>Crawling official <a href="https://www.youtube.com/@SlagalicaRTS">@SlagalicaRTS</a> YouTube channel</li>
+								<li>>3.8k videos downloaded with <a href="https://github.com/pytube/pytube"><code>pytube</code></a> or <a href="https://ytdlp.toolbrew.org/"><code>yt-dlp</code></a></li>
+								<li>30k+ individual 4-word association sets extracted</li>
+							</ul>
+						</li>
+					</ul>
+					<img src="./slike/mask2.png" height="275">
+					<!--<small class="fragment" style="text-align:left;"><sup>7</sup>Aleksandar Kondić, Automatic text recognition and extraction from "TV Slagalica" videos, <em>Faculty of Engineering in Kragujevac</em>, diplomski rad, 2019, mentorship: Vladimir Milovanović</small>-->
+				</section>
+				<section data-auto-animate>
+					<h2>How to evaluate the proposed model?</h2>
+					<ul style="list-style-type:disc;">
+						<li>Model was evaluated on actual Associations games.
+							<ul style="list-style-type:circle;">
+								<li>Crawling official <a href="https://www.youtube.com/@SlagalicaRTS">@SlagalicaRTS</a> YouTube channel</li>
+								<li>>3.8k videos downloaded with <a href="https://github.com/pytube/pytube"><code>pytube</code></a> or <a href="https://ytdlp.toolbrew.org/"><code>yt-dlp</code></a></li>
+								<li>30k+ individual 4-word association sets extracted</li>
+							</ul>
+						</li>
+					</ul>
+					<img src="./slike/mask2.png" height="275">
+					<img src="./slike/odstojanja.png" height="275">
+					<small class="fragment" style="text-align:left;"><sup>7</sup>Aleksandar Kondić, Automatic text recognition and extraction from "TV Slagalica" videos, <em>Faculty of Engineering in Kragujevac</em>, diplomski rad, 2019, mentorship: Vladimir Milovanović</small>
+				</section>
+
+				<section data-auto-animate>
+					<h2>Center of gravity Prediction results</h2>
+					<img src="https://www.tandfonline.com/cms/asset/8403dc97-00b4-45c0-a3f4-731f0de06575/uaai_a_2034262_f0006_b.jpg" width="730">
+				</section>
+				<section data-auto-animate>
+					<h2>Center of gravity Prediction results</h2>
+					<img src="https://www.tandfonline.com/cms/asset/be517718-3dda-49a5-bf28-befc07a18283/uaai_a_2034262_f0007_b.jpg" width="730">
+					<ul style="list-style-type:disc;">
+						<li class="fragment">The associations game generator as а by-product</li>
+						<li class="fragment">Give the guess word and generate the clue words</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Chatbots & LLMs as Ultimate Solution</h2>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Previous solutions were from the 2015-2020 period.</li>
+						<li class="fragment">This was in the era preceeding transformers & LLMs.</li>
+					<!--</ul>-->
+					<!--<ul style="list-style-type:disc;">-->
+						<li class="fragment">Could the Associations be approcahed by ChatGPT?
+						<center><img src="./slike/logo/ChatGPT-Logo.png" width="500"></center></li>
+					</ul>
+					<small class="fragment" style="text-align:left;"><sup>8</sup>Aleksandar Kondić, Vladimir Milovanović, "<a href="http://aai2024.kg.ac.rs/wp-content/uploads/2025/03/AAI2024_Book_of_Abstracts.pdf#[{"num":276,"gen":0},{"name":"XYZ"},69,729,0]">On Semantic Association Capabilities of GPT LLMs in a Game of Word Associations</a>", <em>3<sup>rd</sup> Serbian International Conference on Applied Artificial Intelligence (SICAAI)</em>, Kragujevac, Serbia, May 2024</small>
+				</section>
+
+				<section>
+					<h2>All Starts with Prompt Engineering</h2>
+					<ul style="list-style-type:square;">
+						<li>Turns out the following prompt works effectively:</li>
+						<ul style="list-style-type:circle;">
+							<li class="fragment">We speak in Serbian language. We are playing an association game where I give four words and You have to find the fifth word that connects them. It can be used correctly in a linguistic context with all four words, without the concepts represented by these expressions being necessarily connected. I already know it, and it is not one of the mentioned words. List ten words that could be the correct answer, in order of decreasing probability, separated by commas, without numbering.</li>
+						</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Exact Guess Match in Ten Attempts</h2>
+					<img src="./slike/GPTtop10accuracy.png" height="555">
+				</section>
+
+				<section>
+					<h2>Top-<em>N</em> Accuracies against GPT Models</h2>
+					<img src="./slike/GPTtopNaccuracies.png" height="555">
+				</section>
+
+				<section>
+					<h2>Mean & Median number of Guesses</h2>
+					<img src="./slike/GPTmeanmedian.png" height="555">
+				</section>
+
+				<section>
+					<h2>Future Work and Conclusions</h2>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Latest LLMs reached human-level performance in Associations game with all 4 clue words uncovered.</li>
+						<li class="fragment">General performance still remains to be evaluated.</li>
+						<li class="fragment">Room for improvement exists, apart from GPT-4.5:</li>
+							<ul style="list-style-type:circle;">
+								<li class="fragment">AI-assisted optimal prompt engineering & divising.</li>
+								<li class="fragment">Overall joint performance in all 7 Slagalica games.</li>
+							</ul>
+						<li class="fragment">Semantic association capability is transformer architecture core mechanism.</li>
+						<li class="fragment">Seems that the game of Associations in particular, and Game Shows in general can be useful banchmark for assesing LLMs, and it's fun afterall!</li>
+					</ul>
+				</section>
+
+				<!-- 
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="https://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+				-->
+
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				center: false,
+				controls: true,
+				embedded: false,
+				hash: true,
+				progress: true,
+				slideNumber: 'c/t',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMath.KaTeX ]
+			});
+
+		</script>
+
+	</body>
+</html>
